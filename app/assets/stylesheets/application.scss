@@ -18,6 +18,11 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+body {
+  background-color: #fafafa;
+  font-size: 14px;
+  color: #262626;
+}
 .navbar {
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, .0975);
