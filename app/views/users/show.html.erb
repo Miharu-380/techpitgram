@@ -4,10 +4,11 @@
       <%= image_tag avatar_url(@user), class: "round-img" %>
     </div>
     <div class="col-md-8">
+
       <div class="row">
-        <h1><%= @user.name %></h1>
-        
-        <% if @user == current_user %> 
+        <h1><%= @user.username %></h1>
+
+        <% if @user == current_user %>
         <%= link_to "プロフィールを編集", edit_user_registration_path, class: "btn btn-outline-dark common-btn edit-profile-btn" %>
         <button type="button" class="setting" data-toggle="modal" data-target="#exampleModal"></button>
         <% end %>
@@ -29,6 +30,9 @@
           </div>
         </div>
       </div>
+      <div class="row">
+      <h5><%= @user.name %></h55>
+      </div>
       <% if @user == current_user %>
         <div class="row">
           <p>
@@ -36,6 +40,7 @@
           </p>
         </div>
       <% end %>
+
     </div>
   </div>
 </div>
