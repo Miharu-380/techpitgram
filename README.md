@@ -1,24 +1,25 @@
-# README
+# techpitgram
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## 概要
 
-* Ruby version
+Instagram風アプリ　（techpit教材）
 
-* System dependencies
+#ページ構成
 
-* Configuration
+- Sign upページ
+- Loginページ
+- ユーザーページ
+- 投稿ページ
+- 投稿一覧ページ
+- 投稿詳細ページ
 
-* Database creation
+#実装機能
 
-* Database initialization
+- ユーザー新規登録、ログイン機能（devise）
+- ユーザー編集機能
+- 名前とユーザーネーム追加登録
+- 写真、テキスト投稿機能
+- いいね機能（非同期通信）
+- コメント機能（非同期通信）
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
